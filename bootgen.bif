@@ -1,0 +1,6 @@
+image:
+{
+    [bootloader] zynq_fsbl/executable.elf
+    [load=0x00100000] system.dtb
+    u-boot-xlnx/u-boot.elf
+}
